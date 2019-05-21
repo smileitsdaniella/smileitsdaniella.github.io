@@ -1,0 +1,58 @@
+/*font-family: 'Righteous', cursive;// //Display font/header//
+//font-family: 'Karla', sans-serif;*/
+/* rgb(255, 99, 99) muted red */
+/* rgb(233, 206, 255) lavender/ muted light purple */
+h1{
+  font-family: 'Inconsolata', monospace;
+  color: black;
+}
+h2{
+  font-family: 'Karla', sans-serif;
+  color: black;
+}
+h3, h4, p{
+  font-family: 'Karla', sans-serif;
+}
+ul li a{
+  color: black;
+  font-family: 'Karla', sans-serif;
+}
+a{
+  color: black;
+  font-family: 'Karla', sans-serif;
+}
+a:visited {
+    color: black;
+}
+a:hover{
+  color: black;
+  text-decoration: underline;
+}
+
+.button{
+  background: rgb(233, 206, 255);
+}
+/* lavender */
+.cen{
+  text-align: center;
+}
+.thumbnail{
+  height: auto;
+  width: auto;
+}
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.blackline{
+  font-size: 3px;
+  background: black;
+}
