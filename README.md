@@ -1,2 +1,1 @@
 # smileitsdaniella
-Danielle's portfolio
