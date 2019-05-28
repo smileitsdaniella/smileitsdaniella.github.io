@@ -12,7 +12,7 @@ h1{
   color: black;
   /* background: black; */
 }
-h2, h3, h4, p{
+h2, h3, h4, h5, h6, p{
   font-family: 'Karla', sans-serif;
   color: black;
 }
