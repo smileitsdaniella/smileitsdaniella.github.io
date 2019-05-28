@@ -8,9 +8,9 @@
 } */
 
 h1{
-  font-family: 'Inconsolata', monospace;
-  color: white;
-  background: black;
+  font-family: 'Karla', sans-serif;
+  color: black;
+  /* background: black; */
 }
 h2, h3, h4, p{
   font-family: 'Karla', sans-serif;
