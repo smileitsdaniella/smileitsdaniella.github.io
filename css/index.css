@@ -55,8 +55,13 @@ a:hover{
     clear: both;
     display: table;
 }
-#textheart {width:300px;
-  position:absolute;
-  top:1500px;
-  left:190px;
+.responsive {
+  width: 100%;
+  height: auto;
+}
+.mainlogo {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+  }
 }

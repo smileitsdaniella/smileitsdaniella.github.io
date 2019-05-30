@@ -59,3 +59,7 @@ a:hover{
   font-size: 3px;
   background: black;
 }
+.responsive {
+  width: 100%;
+  height: auto;
+}
