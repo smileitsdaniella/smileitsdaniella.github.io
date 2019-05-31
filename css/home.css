@@ -108,6 +108,7 @@ a:hover{
 /* Caption text */
 .text {
   color: #f2f2f2;
+  background: black;
   font-size: 15px;
   padding: 8px 12px;
   position: absolute;
