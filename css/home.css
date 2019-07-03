@@ -149,7 +149,11 @@ a:hover{
   animation-name: fade;
   animation-duration: 1.5s;
 }
-
+.mainlogo {
+    width: 100%;
+    max-width: 70px;
+    height: auto;
+  }
 
 @-webkit-keyframes fade {
   from {opacity: .4}
