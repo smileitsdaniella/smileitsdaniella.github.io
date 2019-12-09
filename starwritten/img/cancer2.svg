@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 252 252" style="enable-background:new 0 0 252 252;" xml:space="preserve">
+<style type="text/css">
+	.st0{display:none;}
+	.st1{display:inline;fill:#FFFFFF;stroke:#252723;stroke-miterlimit:10;}
+	.st2{fill:#FFFFFF;}
+	.st3{fill:#D8CDB6;}
+	.st4{clip-path:url(#SVGID_2_);fill:#709279;}
+	.st5{clip-path:url(#SVGID_2_);fill:#98C5A1;}
+	.st6{fill:#709279;}
+	.st7{fill:#98C5A1;}
+	.st8{display:inline;fill:none;stroke:#252723;stroke-miterlimit:10;}
+</style>
+<g id="Bleed" class="st0">
+	<circle class="st1" cx="126" cy="126" r="72"/>
+</g>
+<g id="Background">
+</g>
+<g id="Image">
+	<circle class="st2" cx="126" cy="126" r="57.66"/>
+	<circle class="st3" cx="126" cy="126" r="50.01"/>
+	<circle class="st2" cx="126" cy="126" r="45.64"/>
+	<circle class="st3" cx="127.88" cy="130.08" r="44.02"/>
+	<ellipse class="st2" cx="114.27" cy="126" rx="33.91" ry="40.72"/>
+	<circle class="st3" cx="116.05" cy="139.61" r="31.28"/>
+	
+		<ellipse transform="matrix(0.155 -0.9879 0.9879 0.155 -28.9317 230.2964)" class="st2" cx="120.16" cy="132.06" rx="23.17" ry="28.93"/>
+	<g>
+		<g>
+			<defs>
+				
+					<rect id="SVGID_1_" x="119.55" y="113.96" transform="matrix(0.6372 -0.7707 0.7707 0.6372 -52.851 158.7726)" width="45.34" height="43.12"/>
+			</defs>
+			<clipPath id="SVGID_2_">
+				<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+			</clipPath>
+			<path class="st4" d="M120.13,128.53c-0.28,1.23,2.59,2.94,6.42,3.83c3.83,0.89,7.17,0.62,7.45-0.61
+				c0.28-1.23-2.59-2.94-6.42-3.83C123.75,127.03,120.42,127.3,120.13,128.53"/>
+			<path class="st4" d="M139.27,160.28c1.2,0.37,3.12-2.37,4.29-6.12c1.17-3.76,1.14-7.1-0.06-7.48c-1.2-0.37-3.12,2.37-4.29,6.12
+				C138.04,156.56,138.07,159.9,139.27,160.28"/>
+			<path class="st4" d="M154.45,135.47c-0.16,1.25,2.87,2.66,6.77,3.16c3.9,0.5,7.19-0.11,7.35-1.36c0.16-1.25-2.87-2.66-6.77-3.16
+				C157.9,133.62,154.61,134.22,154.45,135.47"/>
+			<path class="st4" d="M147.01,126.71c1.23,0.28,2.94-2.59,3.83-6.42c0.89-3.83,0.62-7.17-0.61-7.45
+				c-1.23-0.28-2.94,2.59-3.83,6.42C145.51,123.09,145.79,126.43,147.01,126.71"/>
+			<path class="st4" d="M122.6,148.32c1.43,2.72,5.78,3.24,9.73,1.16c3.95-2.07,5.99-5.96,4.56-8.67c-1.43-2.72-5.78-3.23-9.73-1.16
+				C123.21,141.73,121.17,145.61,122.6,148.32"/>
+			<path class="st5" d="M133.81,125.46c-6.82,6-8.17,15.63-3.01,21.5c5.17,5.87,14.88,5.77,21.71-0.23c6.82-6,8.17-15.63,3-21.5
+				S140.63,119.46,133.81,125.46"/>
+		</g>
+		<polygon class="st6" points="148.43,122.24 157.13,131.67 152.52,144.67 139.2,148.24 130.49,138.81 135.11,125.82 		"/>
+		<polygon class="st7" points="147.81,124.45 154.45,131.64 150.94,141.54 140.78,144.27 134.14,137.08 137.66,127.17 		"/>
+	</g>
+</g>
+<g id="Text">
+</g>
+<g id="Safe_Area" class="st0">
+	<circle class="st8" cx="126" cy="126" r="54"/>
+</g>
+</svg>
