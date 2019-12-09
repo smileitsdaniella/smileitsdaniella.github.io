@@ -52,6 +52,12 @@ a:hover{
   height: auto;
   width: auto;
 }
+.column2 {
+    float: left;
+    width: 50%;
+    padding: 2px;
+}
+
 .column3 {
     float: left;
     width: 33.33%;
