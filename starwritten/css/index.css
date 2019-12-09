@@ -19,7 +19,7 @@ h1{
 }
 h2, h3, h4, h5, h6, p{
   font-family: 'Karla', sans-serif;
-  color: black;
+  color: rgb(94, 90, 90);
 }
 ul li{
   color: black;
@@ -48,9 +48,14 @@ a:hover{
   height: auto;
   width: auto;
 }
-.column {
+.column3 {
     float: left;
     width: 33.33%;
+    padding: 5px;
+}
+.column4 {
+    float: left;
+    width: 25%;
     padding: 5px;
 }
 
