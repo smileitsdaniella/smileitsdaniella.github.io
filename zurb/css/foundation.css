@@ -5136,6 +5136,7 @@ a.thumbnail {
   .top-bar,
   .top-bar ul {
     background-color: #bed5fb; }
+    /* ^Changes the color of the strip on the nav */
   .top-bar input {
     max-width: 200px;
     margin-right: 1rem; }
