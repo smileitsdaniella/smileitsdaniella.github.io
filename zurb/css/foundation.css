@@ -5002,8 +5002,8 @@ a.thumbnail {
 
 .title-bar {
   padding: 0.5rem;
-  background: #bed5fb;
-  /* Color for the menu strip in the mobile version (light Blue) */
+  background: #cbbed8;
+  /* Color for the menu strip in the mobile version (light purple) */
   color: #fefefe;
   /* Text color for the menu strip in the mobile version (white)*/
   display: -ms-flexbox;
@@ -5135,8 +5135,8 @@ a.thumbnail {
       flex-wrap: wrap; }
   .top-bar,
   .top-bar ul {
-    background-color: #bed5fb; }
-    /* ^Changes the color of the strip on the nav */
+    background-color: #ffffff; }
+    /* ^Changes the color of the strip on the nav (White)*/
   .top-bar input {
     max-width: 200px;
     margin-right: 1rem; }
