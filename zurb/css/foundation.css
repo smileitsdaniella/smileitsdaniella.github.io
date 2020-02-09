@@ -5002,8 +5002,10 @@ a.thumbnail {
 
 .title-bar {
   padding: 0.5rem;
-  background: #0a0a0a;
+  background: #bed5fb;
+  /* Color for the menu strip in the mobile version (light Blue) */
   color: #fefefe;
+  /* Text color for the menu strip in the mobile version (white)*/
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: start;
@@ -5025,7 +5027,7 @@ a.thumbnail {
 .title-bar-title {
   display: inline-block;
   vertical-align: middle;
-  font-weight: bold; }
+  font-weight: bold;}
 
 .has-tip {
   position: relative;
