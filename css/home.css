@@ -164,3 +164,45 @@ a:hover{
   from {opacity: .4}
   to {opacity: 1}
 }
+
+/* Contact Page css */
+/* Style inputs, select elements and textareas */
+input[type=text], select, textarea{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+/* Style the label to display next to the inputs */
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+/* Style the submit button (light purple)*/
+input[type=submit] {
+  background-color: #b8a2ce;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+/* Style the reset button (light purple)*/
+input[type=reset] {
+  background-color: #b8a2ce;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+/* When moving the mouse over the submit button, add a darker purple color */
+input[type=submit]:hover {
+  background-color: #9e83b8;
+}
