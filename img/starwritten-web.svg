@@ -4,15 +4,10 @@
 	 viewBox="0 0 500 500" style="enable-background:new 0 0 500 500;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:#9297AF;}
-	.st1{fill:none;}
-	.st2{font-family:'Febrero-Regular';}
-	.st3{font-size:24px;}
 </style>
 <polygon class="st0" points="250,298.5 206.7,420.1 293.3,420.1 "/>
 <path class="st0" d="M474.1,366.5H25.9c-6.6,0-12-5.4-12-12V102c0-6.6,5.4-12,12-12h448.2c6.6,0,12,5.4,12,12v252.4
 	C486.1,361.1,480.7,366.5,474.1,366.5z"/>
-<image style="overflow:visible;" width="2858" height="1494" xlink:href="../../../../Desktop/Screen Shot 2020-03-05 at 10.12.50 PM.png"  transform="matrix(0.1538 0 0 0.1538 33.0868 110.9303)">
+<image style="overflow:visible;enable-background:new    ;" width="2858" height="1494" xlink:href="../../../../Desktop/Screen Shot 2020-03-05 at 10.12.50 PM.png"  transform="matrix(0.1538 0 0 0.1538 33.0868 110.9303)">
 </image>
-<rect x="24.4" y="48.7" class="st1" width="451.3" height="30.6"/>
-<text transform="matrix(1 0 0 1 24.3702 64.0596)" class="st2 st3">Click on the computer to check out the website.</text>
 </svg>
