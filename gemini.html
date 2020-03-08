@@ -40,7 +40,7 @@
     </nav>
   <!--ZURB RESPONSIVE NAV BAR-->
   <header class="grid-x grid-margin-x grid-padding-x">
-    <div class="cen large-2 cell large-offset-5">
+    <div class="cen large-12 cell">
       <figure>
         <br>
         <a href="index.html">
@@ -53,18 +53,40 @@
 
     <div class="grid-x grid-margin-x grid-padding-x">
       <div class="large-8 cell large-offset-2">
-    <div class="card-container">
-        <div class="card">
-            <div class="front">
-              <span class="fa fa-user"></span>
+      <div class="row">
+        <div class="large-3 medium-4 small-6 columns">
+              <!-- Card Flip -->
+          <div class="card-flip">
+            <div class="flip">
+              <div class="front">
+                <!-- front content -->
+                <div class="card">
+                    <img src="https://foundation.zurb.com/sites/docs/assets/img/generic/rectangle-1.jpg">
+                    <div class="card-section">
+                      <h4>This is a card.</h4>
+                      <p>It has an easy to override visual style, and is appropriately subdued.</p>
+                    </div>
+                  </div>
+              </div>
+              <div class="back">
+                <!-- back content -->
+                <div class="card">
+                  <div class="card-section">
+                    <h4>Card Back Content</h4>
+                    <p>Images work just fine below the content too!</p>
+                  </div>
+                  <img src="https://foundation.zurb.com/sites/docs/assets/img/generic/rectangle-1.jpg">
+                </div>
+              </div>
             </div>
-            <div class="back">
-            <a href="img/aquarius_inside.jpg"></a> </div>
+          </div>
+              <!-- End Card Flip -->
         </div>
-    </div>
-  </div>
-</div>
+      </div>
 
+
+      </div>
+    </div>
     <!-- <main class="grid-x grid-margin-x grid-padding-x">
       <div class="cen large-6 cell large-offset-3">
         <h4><br>6.7.19<br>
@@ -87,11 +109,12 @@
 <!--Needed to close off the page-->
 </main>
     <!-- //////NEED FOR ZURB -EDIT FILEPATHS/////-->
-    <script type="js/turn.js"></script>
+    <script type="js/zodiac.js"></script>
     <script src="zurb/js/vendor/jquery.js"></script>
     <script src="zurb/js/vendor/what-input.js"></script>
     <script src="zurb/js/vendor/foundation.js"></script>
     <script src="zurb/js/app.js"></script>
+
     <!-- //////NEED FOR ZURB -EDIT FILEPATHS/////-->
   </body>
 </html>
