@@ -29,12 +29,11 @@
         <ul class="dropdown vertical medium-horizontal menu" data-responsive-menu="drilldown medium-dropdown" data-auto-height="true" data-animate-height="true">
 
           <!-- <li><a href="index.html">Design</a></li> -->
+          <li><a href="index.html">Design</a></li>
           <li><a href="photography.html">Photography</a></li>
-          <li><a href="fine-art.html">Fine Art</a></li>
-          <li><a href="client.html">Client Work</a></li>
-          <li><a href="daiso.html">Daiso USA</a></li>
+          <li><a href="fine-art.html">Fine Art </a></li>
           <li><a href="about.html">About</a></li>
-          <!-- <li><a href="contact.html">Contact</a></li> -->
+          <li><a href="contact.html">Contact</a></li>
         </ul>
       </div>
       <!-- <div class="top-bar-right"> -->
@@ -57,62 +56,86 @@
       <br>
     </div>
   </header>
+  <!-- The grid: four columns -->
+  <!-- Container for the image gallery -->
+  <div class="container">
 
-    <!-- Thumbnail grid -->
-    <!-- Red -->
-    <div class="w3-container">
-  <h2>Slideshow Indicators</h2>
-  <p>Using images to indicate how many slides there are in the slideshow, and highlight the image the user is currently viewing.</p>
-</div>
-
-<div class="w3-content" style="max-width:1200px">
-  <img class="mySlides" src="img_nature_wide.jpg" style="width:100%;display:none">
-  <img class="mySlides" src="img_snow_wide.jpg" style="width:100%">
-  <img class="mySlides" src="img_mountains_wide.jpg" style="width:100%;display:none">
-
-  <div class="w3-row-padding w3-section">
-    <div class="w3-col s4">
-      <img class="demo w3-opacity w3-hover-opacity-off" src="img_nature_wide.jpg" style="width:100%;cursor:pointer" onclick="currentDiv(1)">
+    <!-- Full-width images with number text -->
+    <div class="mySlides">
+      <!-- <div class="numbertext">1 / 6</div> -->
+        <img src="img/baking-lg.png" style="width:100%">
     </div>
-    <div class="w3-col s4">
-      <img class="demo w3-opacity w3-hover-opacity-off" src="img_snow_wide.jpg" style="width:100%;cursor:pointer" onclick="currentDiv(2)">
+
+    <div class="mySlides">
+      <!-- <div class="numbertext">2 / 6</div> -->
+        <img src="img/origami-lg.gif" style="width:100%">
     </div>
-    <div class="w3-col s4">
-      <img class="demo w3-opacity w3-hover-opacity-off" src="img_mountains_wide.jpg" style="width:100%;cursor:pointer" onclick="currentDiv(3)">
+
+    <div class="mySlides">
+      <!-- <div class="numbertext">3 / 6</div> -->
+        <img src="img/decoben-large.png" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <!-- <div class="numbertext">4 / 6</div> -->
+        <img src="img/halloween-20-lg.gif" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <!-- <div class="numbertext">5 / 6</div> -->
+        <img src="img/spring-2021-lg.png" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <!-- <div class="numbertext">6 / 6</div> -->
+        <img src="img/bts-20-lg.gif" style="width:100%">
+    </div>
+
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <!-- Image text -->
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+
+    <!-- Thumbnail images -->
+    <div class="row">
+      <div class="column">
+        <img class="demo cursor" src="img/baking-lg.png" style="width:100%" onclick="currentSlide(1)" alt="Baking banner">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="img/origami-lg.png" style="width:100%" onclick="currentSlide(2)" alt="Origami animated banner">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="img/decoben-large.png" style="width:100%" onclick="currentSlide(3)" alt="Decoben banner">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="img/halloween-lg-20.png" style="width:100%" onclick="currentSlide(4)" alt="Halloween 2020 animated banner">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="img/spring-2021-lg.png" style="width:100%" onclick="currentSlide(5)" alt="Spring 2021 banner">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="img/bts-20-lg.png" style="width:100%" onclick="currentSlide(6)" alt="Back to School 2020 animated banner">
+      </div>
     </div>
   </div>
-</div>
-
-    <div class="grid-x grid-margin-x grid-padding-x">
-      <div class="cen large-4 cell large-offset-4">
-        <p><br><br>&copy; Danielle Lowe 2020</p>
-    </div>
+  <div class="cen large-12 cell">
+    <h4><br>12.2019 - Present<br>Daiso USA Banners</h4>
+    <h4>----</h4>
+    <br>
+    <br>
+  </div>
+  <div class=" cen large-12 cell">
+    <p>Banners that I have created for <a href="https://www.daisojapan.com" target="_blank">Daiso USA</a>.  <br>These banners are on the home page and they help to promote sections or holidays throughout the year.
+  </p><br>
   </div>
 
-  <script>
-  function currentDiv(n) {
-    showDivs(slideIndex = n);
-  }
-
-  function showDivs(n) {
-    var i;
-    var x = document.getElementsByClassName("mySlides");
-    var dots = document.getElementsByClassName("demo");
-    if (n > x.length) {slideIndex = 1}
-    if (n < 1) {slideIndex = x.length}
-    for (i = 0; i < x.length; i++) {
-      x[i].style.display = "none";
-    }
-    for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" w3-opacity-off", "");
-    }
-    x[slideIndex-1].style.display = "block";
-    dots[slideIndex-1].className += " w3-opacity-off";
-  }
-  </script>
-  
 </main>
     <!-- //////NEED FOR ZURB -EDIT FILEPATHS/////-->
+    <script src="js/gallery.js"></script>
     <script src="zurb/js/vendor/jquery.js"></script>
     <script src="zurb/js/vendor/what-input.js"></script>
     <script src="zurb/js/vendor/foundation.js"></script>
