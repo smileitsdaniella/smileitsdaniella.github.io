@@ -254,7 +254,7 @@ input[type=submit]:hover {
 
 
 /* Position the image container (needed to position the left and right arrows) */
-.container {
+.container-gallery {
   position: relative;
 }
 
@@ -314,14 +314,14 @@ input[type=submit]:hover {
   color: black;
 }
 
-.row:after {
+.row-gallery:after {
   content: "";
   display: table;
   clear: both;
 }
 
 /* Six columns side by side */
-.column {
+.column-gallery {
   float: left;
   width: 16.66%;
 }
