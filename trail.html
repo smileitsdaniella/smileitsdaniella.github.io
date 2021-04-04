@@ -1,0 +1,140 @@
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trail Blitz Photographs (2019)</title>
+    <!--///////NEED FOR ZURB- EDIT FILEPATHS/////-->
+    <link rel="icon" href="http://www.smileitsdaniella.com/favicon.png">
+    <link rel="stylesheet" href="zurb/css/foundation.css">
+    <link rel="stylesheet" href="zurb/css/app.css">
+    <link href="https://fonts.googleapis.com/css?family=Karla|Righteous" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+    <link rel="stylesheet" href="css/gallery.css">
+    <!--///////NEED FOR ZURB- EDIT FILEPATHS/////-->
+  </head>
+
+  <body>
+    <main class="grid-container">
+     <!--ZURB RESPONSIVE NAV BAR-->
+      <div class="title-bar" data-responsive-toggle="main-nav" data-hide-for="medium">
+        <button class="menu-icon" type="button" data-toggle="main-nav"></button>
+      <div class="title-bar-title"></div>
+      <!-- ^Adds text to the menu in the dropdown menu on mobile -->
+    </div>
+
+    <nav class="top-bar" id="main-nav">
+      <div class="top-bar-right">
+        <ul class="dropdown vertical medium-horizontal menu" data-responsive-menu="drilldown medium-dropdown" data-auto-height="true" data-animate-height="true">
+
+          <!-- <li><a href="index.html">Design</a></li> -->
+          <li><a href="index.html">Design</a></li>
+          <li><a href="photography.html">Photography</a></li>
+          <li><a href="fine-art.html">Fine Art </a></li>
+          <li><a href="about.html">About</a></li>
+          <!-- <li><a href="contact.html">Contact</a></li> -->
+        </ul>
+      </div>
+      <!-- <div class="top-bar-right"> -->
+  <!--         <ul class="menu">
+          <li><input type="search" placeholder="Search"></li>
+          <li><button type="button" class="button">Search</button></li>
+        </ul> -->
+      <!-- </div> -->
+    </nav>
+  <!--ZURB RESPONSIVE NAV BAR-->
+  <header class="grid-x grid-margin-x grid-padding-x">
+    <div class="cen large-2 cell large-offset-5">
+      <figure>
+        <br>
+        <a href="index.html">
+        <img src="img/DL-logo-black.svg" alt="Danielle's logo" class="mainlogo"></a>
+      </figure>
+      <h5>Danielle Lowe</h5>
+      <br>
+      <br>
+    </div>
+  </header>
+  <!-- The grid: four columns -->
+  <!-- Container for the image gallery -->
+  <div class="container-gallery">
+
+    <!-- Full-width images with number text -->
+    <div class="mySlides">
+      <!-- <div class="numbertext">1 / 6</div> -->
+        <img src="img/greenspace-photos/byington-19.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <!-- <div class="numbertext">2 / 6</div> -->
+        <img src="img/greenspace-photos/tree-view-19.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <!-- <div class="numbertext">3 / 6</div> -->
+        <img src="img/greenspace-photos/lakeshore-park-19.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <!-- <div class="numbertext">4 / 6</div> -->
+        <img src="img/greenspace-photos/lakeshore-island-19.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <!-- <div class="numbertext">5 / 6</div> -->
+        <img src="img/greenspace-photos/willows-19.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <!-- <div class="numbertext">6 / 6</div> -->
+        <img src="img/greenspace-photos/purple-flowers-19.jpg" style="width:100%">
+    </div>
+
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <!-- Image text -->
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+
+    <!-- Thumbnail images -->
+    <div class="row-gallery">
+      <div class="column-gallery">
+        <img class="demo cursor" src="img/greenspace-photos/byington-19.jpg" style="width:100%" onclick="currentSlide(1)" alt="">
+      </div>
+      <div class="column-gallery">
+        <img class="demo cursor" src="img/greenspace-photos/tree-view-19.jpg" style="width:100%" onclick="currentSlide(2)" alt="">
+      </div>
+      <div class="column-gallery">
+        <img class="demo cursor" src="img/greenspace-photos/lakeshore-park-19.jpg" style="width:100%" onclick="currentSlide(3)" alt="">
+      </div>
+      <div class="column-gallery">
+        <img class="demo cursor" src="img/greenspace-photos/lakeshore-island-19-500.jpg" style="width:100%" onclick="currentSlide(4)" alt="">
+      </div>
+      <div class="column-gallery">
+        <img class="demo cursor" src="img/greenspace-photos/willows-19.jpg" style="width:100%" onclick="currentSlide(5)" alt="">
+      </div>
+      <div class="column-gallery">
+        <img class="demo cursor" src="img/greenspace-photos/purple-flowers-19.jpg" style="width:100%" onclick="currentSlide(6)" alt="">
+      </div>
+    </div>
+  </div>
+
+  <div class="grid-x grid-margin-x grid-padding-x">
+    <div class="cen large-4 cell large-offset-4">
+      <p><br><br>&copy; Danielle Lowe 2021</p>
+  </div>
+</div>
+</main>
+    <!-- //////NEED FOR ZURB -EDIT FILEPATHS/////-->
+    <script src="js/gallery.js"></script>
+    <script src="zurb/js/vendor/jquery.js"></script>
+    <script src="zurb/js/vendor/what-input.js"></script>
+    <script src="zurb/js/vendor/foundation.js"></script>
+    <script src="zurb/js/app.js"></script>
+    <!-- //////NEED FOR ZURB -EDIT FILEPATHS/////-->
+  </body>
+</html>
